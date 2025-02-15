@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Stock Graph</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>Welcome to the Stock Price Prediction App</h2>
+            <p>Choose your options below</p>
+            <form>
+                <label for="stock-symbol">Enter a Stock Symbol</label>
+                <input type="text" id="stock-symbol" placeholder="e.g., SPY" value="SPY" readonly />
+
+                <label for="duration">Enter the duration</label>
+                <input type="number" id="duration" value="3000" readonly />
+
+                <label for="start-date">Start Date</label>
+                <input type="date" id="start-date" value="2016-09-02" readonly />
+
+                <label for="end-date">End Date</label>
+                <input type="date" id="end-date" value="2024-11-19" readonly />
+
+                <button type="button" id="predict-btn">Send</button>
+            </form>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h1>Technical Indicators</h1>
+            <p>Choose a Technical Indicator to Visualize</p>
+            <div class="options">
+                <input type="radio" id="close" name="indicator" checked>
+                <label for="close">Close</label>
+
+                <input type="radio" id="bb" name="indicator">
+                <label for="bb">BB</label>
+
+                <input type="radio" id="macd" name="indicator">
+                <label for="macd">MACD</label>
+
+                <input type="radio" id="rsi" name="indicator">
+                <label for="rsi">RSI</label>
+
+                <input type="radio" id="sma" name="indicator">
+                <label for="sma">SMA</label>
+
+                <input type="radio" id="ema" name="indicator">
+                <label for="ema">EMA</label>
+            </div>
+
+            <div id="graph-section">
+                <h2>Close Price</h2>
+                <img src="image.png" alt="Stock Graph" class="graph">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
