@@ -30,30 +30,44 @@ The Advanced Stock Price Forecasting Using a Hybrid Model of Numerical and Textu
     Collaboration and Project Management: The repository includes contributions from all team members with well-organized tasks, ensuring seamless collaboration and effective version control.
 
 
-Dataset Used
-Company 	Description 	Data Range 	Dataset Shape 	Starting Stock Date 	Current Stock Date 	Starting Stock Price 	Current Stock Price
 
-Alphabet Inc. (Google) [GOOG] 	Specializes in Internet-related services and products, including search engines, online advertising, and cloud computing. 	2014-03-27 : 2024-10-17 	(2659, 5) 	2014-03-27 	2024-10-17 	$27.8542 	$164.51
 
-Amazon.com Inc. [AMZN] 	Started as an online bookstore, now a leader in e-commerce and cloud computing through AWS. 	1997-05-16 : 2024-10-17 	(6901, 5) 	1997-05-16 	2024-10-17 	$0.0863 	$187.53
+Tools and Technologies
 
-Apple Inc. [AAPL] 	Renowned for innovative consumer electronics, software, and services, including the iPhone and Mac computers. 	1980-12-12 : 2024-10-17 	(11053, 5) 	1980-12-12 	2024-10-17 	$0.0992 	$232.15
+    Python: Core programming language used for data analysis, model building, and backend development.
+    GitHub: Platform for version control and collaborative development.
+    InfluxDB: Database for efficient time-series data storage and retrieval.
+    Grafana: Tool for real-time data visualization and dashboard creation.
+    Streamlit: Framework for creating interactive web applications.
+    Flask: Lightweight framework for developing the project’s backend.
+    Pandas: Library for data manipulation and analysis.
+    Matplotlib & Plotly: Libraries for data visualization and graphical representation.
+    NLP Libraries (NLTK, spaCy): Tools for processing and analyzing text data.
+    Machine Learning Libraries: Used for implementing models like Naive Bayes, MLP, Logistic Regression, and Random Forest.
 
-Meta Platforms [META] 	Owner of Facebook, a global leader in social media and digital advertising. 	2012-05-18 : 2024-10-17 	(3124, 5) 	2012-05-18 	2024-10-17 	$38.1174 	$576.93
+INLFUX DATABASE
 
-Microsoft Corp. [MSFT] 	A leading developer of software, consumer electronics, and personal computers. 	1986-03-13 : 2024-10-17 	(9728, 5) 	1986-03-13 	2024-10-17 	$0.0603 	$416.72
 
-Netflix Inc. [NFLX] 	Global streaming entertainment service with a vast library of TV series and films. 	2002-05-23 : 2024-10-17 	(5640, 5) 	2002-05-23 	2024-10-17 	$1.1964 	$687.65
+Resources
 
-Nvidia Corp. [NVDA] 	Specializes in graphics processing units and AI technology. 	1999-01-22 : 2024-10-17 	(6477, 5) 	1999-01-22 	2024-10-17 	$0.0377 	$136.93
+    Partial Data Analysis:
+        Historical Stock Prices: Yahoo Finance
+        Textual and Hybrid Data:
+            Kaggle Dataset - News & Stock Prices
 
-Tata Consultancy Services [TCS] 	Leading global IT services, consulting, and business solutions provider. 	2013-11-01 : 2024-10-17 	(2758, 5) 	2013-11-01 	2024-10-17 	$543.0 	$11.8
+    Complete Historical Data:
 
-## **📊 Tech Stack**  
-🔹 **Machine Learning** – TensorFlow, Scikit-Learn, XGBoost  
-🔹 **Deep Learning** – LSTM, RNN, Transformer Models  
-🔹 **Data Processing** – Pandas, NumPy, SQL, Kafka  
-🔹 **Visualization** – Matplotlib, Plotly, Seaborn  
+    Alphabet (Google) (GOOG): Google Stock Price
+    Apple (AAPL): Apple Stock Price
+    Amazon (AMZN): Amazon Stock Price
+    Meta (META): Meta Stock Price
+    Netflix (NFLX): Netflix Stock Price
+    Nvidia (NVDA): Nvidia Stock Price
+    Microsoft (MSFT): Microsoft Stock Price
+    TCS: TCS Stock Price
+
+
+
 
 
 ---
